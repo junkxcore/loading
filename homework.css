@@ -1,0 +1,95 @@
+﻿body
+{
+	padding: 50px;
+	background-color: #cccccc;
+}
+
+
+.wriper
+{
+	width: 700px;
+	height: 300px;
+	background-color: #fff;
+	left: 50%;
+	position: absolute;
+	margin-left: -350px;
+	box-shadow: 0 0 10px 2px;
+	border-radius: 8px;
+}
+
+.loading-top
+{
+	width: 600px;
+	height: 28px;
+	position: relative;
+	margin: 50px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.loading-fon
+{
+
+	width: 600px;
+	height: 25px;
+	text-align: center;
+	position: relative;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: Verdana;
+	border-top: 2px solid #b5b5b5;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.loading
+{
+	width: 20%;
+	position: relative;
+	height: 27px;
+	background-color: #29bf14;
+	border-radius: 20px;
+	margin-top: -2px;
+	transition: 3s;
+	background: linear-gradient(to bottom, #abff58 20%, #3bca21 50%, #8bda1a 90%, #3bca21 100%);
+}
+
+.button
+{
+	width: 100px;
+	height: 30px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #a8a8a8;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc; 
+	margin-left: 50px;
+	padding: 5px 25px;
+	font-family: Verdana;
+	border-radius: 8px;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #fff, #e2e2e2);
+}
+
+.button:hover
+{
+	border-radius: 8px;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #6f6f6f;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9; 
+	background: linear-gradient(to bottom, #feffeb, #fdffcc);
+}
+
+.button:active
+{
+	border-radius: 8px;
+	border: 1px solid #959595;
+	padding-top: 6px;
+	height: 30px;
+	background: linear-gradient(to bottom, #c8c8c8 2%, #fff 10%, #e2e2e2 100%);
+}
+
+.button:focus
+{
+	outline: none;
+	border: 1px solid #6d79b8;
+}
